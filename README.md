@@ -4,7 +4,7 @@ Citi Bike is the largest bike-share program in the United States, with 20,000 b
 
 Like most organizations, Citi Bike is constantly looking for ways to improve their business model and provide an even better experience for their customers. Through the Citi Bike app, they are able to gather loads of useful data which, when analyzed, reveals great insights into things like user demographics and behavior—for example, when and where people pick up and drop off their bikes and how long the average journey lasts. Such data is extremely valuable as it helps the good people at Citi Bike to understand how the service is being used, and to plan and make decisions accordingly. For example, at what rate is the customer base growing and how many more bikes should they install across the city to accommodate this growth? Where should they install the most bikes? Who should they tailor their marketing and advertising to? Essentially, data helps them to determine where and how their money and efforts can be invested for maximum impact.
 
-# PROBLEM STATEMENT:
+## PROBLEM STATEMENT:
 
 So, my mission is to analyze data collected by Citi Bike and help key stakeholders to make smart, data-driven decisions based on the insights I'll uncover. Here’s what I’ll seek to investigate:
 	1. What are the most popular pick-up locations across the city for NY Citi Bike rental?
@@ -13,18 +13,18 @@ So, my mission is to analyze data collected by Citi Bike and help key stakeholde
 	4. How does bike rental vary across the two user groups (one-time users vs long-term subscribers) on different days of the week?
 	5. Does user age impact the average bike trip duration?
 
-# COLLECTING OF DATA:
+## COLLECTING OF DATA:
 
 Citi Bike is a real company, and I’ll be working with real data. However, the project is purely hypothetical, created for the purpose of this project 😊 **I’ve sourced the data from a free data site: Kaggle.com and customized it to fit the scope of my project, adding in extra variables as well as excluding other variables.**
 
 ![New york raw data](https://github.com/Emmanuel-Uduma/Citi-Bike-Analysis/assets/118278584/5767dc9d-c6c3-471a-8163-b2cf9cdeb46f)
 
-# CLEANING OF DATA:
+## CLEANING OF DATA:
 
 First, I removed all duplicates, which I discovered that the data set contained over 3500 duplicate rows. After which I removed empty rows and unnecessary columns on my data set too by filtering the first column "Start Time" and deleting all the blank rows. 
 Also, I looked through my data set and discovered some rows in a particular column contained unwanted outliers, and some inconsistent data.
 
-# ANALYZING THE DATA: 
+## ANALYZING THE DATA: 
 
 Applying the knowledge of descriptive statistics and exploratory data analysis, I needed to find answers to these questions.
 
@@ -75,7 +75,7 @@ From the table below, we discovered the variations on the two user groups on dif
 
 ![Rented bikes](https://github.com/Emmanuel-Uduma/Citi-Bike-Analysis/assets/118278584/451273f0-0226-4553-a0e8-2d538370428c)
 
-# SUMMARY:
+## SUMMARY:
 
 1. The most popular pick-up location across the city for NY Citi Bike rental is Grove St PATH, therefore the investors should make more Citi Bikes available in that location.
 2. The average trip duration across different age groups shows that the age group 75+ has the highest trip duration, while the age group 65 - 74 years takes the shortest trip duration.
